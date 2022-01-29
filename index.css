@@ -1,0 +1,100 @@
+
+.logo{
+    position: fixed;
+    top: 0;
+    width: 10000px;
+    background-image: url(first_bg.jpg);
+    color: black;
+    padding-bottom: 2px;
+    font-size: 30px;
+    font-style: italic;
+}
+.input{
+   position: fixed;
+   right: 0px;
+   top: 0px;
+   border-radius: 6px;
+   font-size: 25px;
+}
+#mst{
+    margin-top: 11px;
+    padding-bottom: 600px;
+    background-image: url(logo.jpg);
+    background-size: cover;
+  background-position: center;
+  align-self: center;
+  border: 5px solid;
+}
+.text2{
+    font-style: italic;
+}
+.text{
+    background-image: url(first_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top:0px;
+}
+
+.cursiv{
+    font-style: italic;
+}
+.komanda{
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.kart{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sm{
+    display: flex;
+    flex-basis: 25%;
+}
+body{
+    margin-right: 15%;
+    margin-left: 15%;
+}
+   img:hover {
+    transform: scale(1.2);
+   }
+   img {
+    transition: 1s;
+   }
+
+.btn {
+    background-image: url("color.jpg");
+    margin-bottom: 100px;
+}
+
+.input2 {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+.hero {
+    font-size: 30px;
+    font-style: italic;
+}
+
+span {
+    font-style: italic;
+}
+.overlay {
+    display: flex;
+    justify-content: center;
+}
+
+.promo__interactive-item {
+font-size: 30px;
+}
+
+.promo__interactive-title {
+    font-size: 30px;
+}
+
