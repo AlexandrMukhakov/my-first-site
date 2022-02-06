@@ -10,8 +10,8 @@
 <body>
     <div class="logo">
         <a href="#mst">НашиСотрудники</a>
-        <form>
-            <input class="input" type="search" placeholder="Найди меня" size="30px">
+        <form class="sreach">
+            <input class="input" type="search" placeholder="Введи свое имя" size="30px">
         </form>
     </div></br>
     <div id="mst">
@@ -22,6 +22,7 @@
 
                </dd></br><article class="text2"> "Мстители, прозванные впоследствии «Самыми могучими героями Земли», первоначально состояли из Человека-муравья, Осы, Тора, Железного человека и Халка. Однако с самого начала в составе команды стали происходить изменения: Халк вскоре покинул Мстителей[1], и к ним присоединился Капитан Америка[2]. Изменяющийся состав стал визитной карточкой команды, хотя некоторое постоянство всё-таки сохранялось: Мстители сражались с такими врагами, одолеть которых в одиночку не мог ни один супергерой — так появилась фирменная фраза: «Мстители, общий сбор!» (англ. Avengers Assemble!). За всё время существования команды в ней побывали люди, мутанты, роботы, боги, пришельцы, сверхъестественные существа и даже бывшие злодеи."</article>
         </dl>
+    </div>
     <div class="komanda">
         КОМАНДА
     </div></br>
@@ -51,36 +52,55 @@
         <figcaption class="cursiv">Дэдпул</figcaption>
     </figure>
     </div>
-    <div class="btn">
-        <div class="overlay"><button id="but1" title="2">1</button>
-            <button title="6">2</button>
-        <button title="3">3</button>
+<div class="func">
+    <div class="promo__interactive">
+        <div>
+            <ul class="promo__interactive-list">
+                <li class="promo__interactive-item">ЛОГАН
+                    <button class="btn">delete</button>
+                </li>
+                <li class="promo__interactive-item">Колос
+                    <button class="btn">delete</button>
+                </li>
+                <li class="promo__interactive-item">Человек Муравей
+                    <button class="btn">delete</button>
+                </li>
+            </ul>
         </div>
-        <div class="promo__interactive">
-            <div>
-                <ul class="promo__interactive-list">
-                    <li class="promo__interactive-item">ЛОГАН
-                        <button id="uu">delete</button>
-                    </li>
-                    <li class="promo__interactive-item">Колос
-                        <button class="hui">delete</button>
-                    </li>
-                    <li class="promo__interactive-item">Человек Муравей
-                        <button class="hui">delete</button>
-                    </li>
-                   
-                </ul>
-            </div>
     </div>
-        <form class="add">
-            <div class="promo__interactive-title">ДОБАВИТЬ НОВОГО ГЕРОЯ</div>
-            <span>Введите имя персонажа</span>
-            <input class="adding__input" type="text" placeholder="Что уже посмотрено...?">
-            <span>Сделать его любимым?</span>
-            <input type="checkbox">
-            <span class="yes">Да!</span>
-            <button>Подтвердить</button>
-        </form>
+            <form class="add">
+                <div class="promo__interactive-title">ДОБАВИТЬ НОВОГО ГЕРОЯ</div>
+                <span>Введите имя персонажа</span>
+                <input class="adding__input" type="text" placeholder="Что уже посмотрено...?">
+                <span>Сделать его любимым?</span>
+                <input type="checkbox">
+                <span class="yes">Да!</span>
+                <button>Подтвердить</button>
+            </form>
+
+</div> 
+
+<div class="promotion__timer">
+    <div class="title">До выхода нового фильма осталось:</div>
+    <div class="timer">
+        <div class="timer__block">
+            <span id="days">12</span>
+            дней
+        </div>
+        <div class="timer__block">
+            <span id="hours">20</span>
+            часов
+        </div>
+        <div class="timer__block">
+            <span id="minutes">56</span>
+            минут
+        </div>
+        <div class="timer__block">
+            <span id="seconds">20</span>
+            секунд
+        </div>
+    </div>
+
  
 
     <script src='script.js'></script>

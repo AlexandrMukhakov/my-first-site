@@ -66,10 +66,6 @@ body{
     transition: 1s;
    }
 
-.btn {
-    background-image: url("color.jpg");
-    margin-bottom: 100px;
-}
 
 .input2 {
     display: flex;
@@ -90,11 +86,28 @@ span {
     justify-content: center;
 }
 
-.promo__interactive-item {
-font-size: 30px;
+
+.func {
+    font-size: 30px;
+background-image: url("color.jpg");
 }
+
 
 .promo__interactive-title {
     font-size: 30px;
+    padding: auto;
 }
 
+.promotion__timer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: burlywood;
+    font-size: 30px;
+    font-style: italic;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
